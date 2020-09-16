@@ -519,6 +519,55 @@ div.on:hover {
 }
 
 /*
-...................JAmes-Sub-page........................................*/
+...................JAmes-Sub-ionpage........................................*/
 */
+/*
+noel.................................................................................................................*/
 
+section.intro {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    grid-gap: 100px;
+    padding:  0% 10%;
+}
+
+.card {
+    box-shadow: 7px 2px 32px -15px rgba(0,0,0,1);
+}
+
+.imgbox {
+    height: 200px;
+    background: black;
+}
+
+.text-content {
+    min-height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#middle {
+    background: #C52F3E;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.read-more {
+    text-decoration: none;
+    width: 100%;
+    background: #C52F3E;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+#middle-button {
+    background: white;
+    color: black;
+}
+/*noel....................................................................................*/
