@@ -68,27 +68,25 @@ main.land-page {
 .about{
     min-height: 30vh;
     background-color: red;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-gap: 2vw;
 }
 
-.image {
-    float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
-}
-.about:after {
-    display: table;
-  clear: both;
+div.image {
+  width: 100%;
+
+ height: auto;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTMq9XEPVhtftlX1KijkZf8RXr_5OLdeocPg&usqp=CAU);
+    background-size: cover;
+ background-position: center;
+    margin: 10px;
+      border-radius: 20px;
 }
 .column1 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTMq9XEPVhtftlX1KijkZf8RXr_5OLdeocPg&usqp=CAU);
-    background-size: cover;
-    height: 25vh;
-    width: 25vw;
-    background-position: center;
+
     margin-left: 70px;
-     border-radius: 20px 20px 20px 20px;
-    margin-top: 5px;
+
 
 }
 .image h1, p {
@@ -115,63 +113,7 @@ footer {
 .image{
     width: 30vw;
 }
-/*...........start..............................................................JAmes-Sub-page........................................*/
-
-main.sub-page{
-
-}
-.sub-vid{
-    min-height: 500px;
-    background-color: black;
-    border-radius: 20px 20px 0 0;
-
-}
-.sub-des {
-    min-height: 200px;
-    background-color: white;
-    border-bottom: 2px solid black;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    padding: 0px 5%;
-}
-
-.sub-des>h1,h3{
-    text-align: center;
-    grid-column: 1/-1;
-}
-
-
-.sub-info>ul{
-    text-decoration: none;
-}
-.sub-try{
-    background-color: white;
-    display:grid;
-grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 2rem;
-    padding: 5% 10%;
-
-
-
-}
-.sub-try > div{
-        border: 2px solid black;
-   min-height: 200px;
-   width: 100%;
-}
-.sub-try > h2{
-    grid-column: 1/-1;
-    text-align: center;
-}
-div.on:hover {
-    transform: scale(1.1);
-    transition: .5s;
-    animation-direction: alternate-reverse;
-}
-
-/*...........end..............................................................JAmes-Sub-page........................................*/
-
- .button-two{
+.button-two{
   text-align: center;
      color: white;
   cursor: pointer;
@@ -268,6 +210,63 @@ a:hover {
     margin: 0.5rem;
     font-size: 1.25 rem;
 }
+/*...........start..............................................................JAmes-Sub-page........................................*/
+
+main.sub-page{
+
+}
+.sub-vid{
+    min-height: 500px;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+
+}
+.sub-des {
+    min-height: 200px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 0px 5%;
+}
+
+.sub-des>h1,h3{
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+
+.sub-info>ul{
+    text-decoration: none;
+}
+.sub-try{
+    background-color: white;
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+    padding: 5% 10%;
+
+
+
+}
+.sub-try > div{
+        border: 2px solid black;
+   min-height: 200px;
+   width: 100%;
+}
+.sub-try > h2{
+    grid-column: 1/-1;
+    text-align: center;
+}
+div.on:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    animation-direction: alternate-reverse;
+}
+
+/*...........end..............................................................JAmes-Sub-page........................................*/
+
+
 
 
 /*.............suman...................*/
@@ -360,7 +359,6 @@ main a {
 }
 
 .about {
-    min-height: 30vh;
     background-color: red;
 }
 
